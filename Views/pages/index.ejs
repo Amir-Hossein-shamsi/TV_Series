@@ -1,0 +1,84 @@
+<%- include('../layouts/header'); -%>
+<div class="container">
+        <div class="row">
+        <% posts.forEach(post => { %>
+            <div class="col-auto-lg">
+                <div class="card card-index">
+                    <img class="card-img-top img-fluid d-block img-thumbnail image " src="<%= post.image %> " alt="">
+                    <div class="card-body">
+                        <h4 class="card-title"><%= post.title %> </h4>
+                        <p class="card-text"><%= post.description.substring(0,119) %>... </p>
+                        <a href="tvshows/<%=post._id %> " class="btn aqua-gradient">Read more...</a>
+                    </div>
+                </div>
+        </div>
+        <% }) %>    
+        </div>
+    
+</div>
+
+
+
+<%- include('../layouts/footer'); -%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <div class="col-auto-lg">
+                <div class="card wave">
+                    <img class="card-img-top" src="https://cdn.suwalls.com/wallpapers/tv-shows/breaking-bad-43602-1920x1080.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Irure occaecat do incididunt nisi deserunt esse consectetur deserunt elit. Consequat esse laboris sit Lorem dolore veniam. Irure veniam cupidatat id ea labore duis irure in proident nisi. Cupidatat nisi elit occaecat sit sint qui duis fugiat dolor excepteur. Ipsum do aute nostrud minim labore ut quis proident pariatur eiusmod ullamco deserunt. Excepteur veniam dolore in ut cillum consectetur eu id ullamco ad Lorem nisi elit.</p>
+                        <a href="#" calss="btn-primary">Read more ...
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-auto-lg">
+                <div class="card">
+                    <img class="card-img-top" src="https://cdn.suwalls.com/wallpapers/tv-shows/breaking-bad-43602-1920x1080.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Irure occaecat do incididunt nisi deserunt esse consectetur deserunt elit. Consequat esse laboris sit Lorem dolore veniam. Irure veniam cupidatat id ea labore duis irure in proident nisi. Cupidatat nisi elit occaecat sit sint qui duis fugiat dolor excepteur. Ipsum do aute nostrud minim labore ut quis proident pariatur eiusmod ullamco deserunt. Excepteur veniam dolore in ut cillum consectetur eu id ullamco ad Lorem nisi elit.</p>
+                        <a href="#" calss="btn-primary">Read more ...</a>
+                    </div>
+
+                </div>
+            </div> -->

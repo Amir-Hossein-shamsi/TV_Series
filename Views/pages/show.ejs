@@ -1,0 +1,33 @@
+<%- include('../layouts/header'); -%>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12-lg" style="margin: 20px auto;">
+            <div class="card">
+                <div class="card-header">
+                    <div class=" view zoom">
+                        <img id="show-img" src="<%= tv.image %> " class="img-fluid  animated rotateInDownLeft faster z-depth-1"  alt="">
+                        <div class="mask pattern-4">
+                        </div>
+                    </div>
+                   <h2 class=""><%= tv.title %> </h2>  
+                </div>
+                <div class="card-body">
+                    <div class="card-text">
+                        <p><%= tv.description %> </p>
+                    </div>
+                    <hr>
+                    <% tv.comments.forEach(item => { %>
+                        <p class="text-muted"><span class="font-weight-bold"><%= item.user %></span>: <%= item.content %>  </p>
+                    <% }) %>
+                  
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+
+<%- include('../layouts/footer'); -%>

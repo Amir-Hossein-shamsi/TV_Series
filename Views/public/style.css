@@ -1,0 +1,62 @@
+body{
+   background-color:#aeaeae;
+}
+.card-img-top{
+    width: 23rem;
+    height: 20rem;
+}
+#show-img{
+    padding: 0;
+    margin: 0;
+    height: 50rem;
+    width: 100%;
+    
+    
+}
+
+
+.card-header h2{
+    
+    margin-top: 10px;
+    text-align: center;
+    color: #424242;
+    font-family: 'Dancing Script', cursive;
+
+}
+.text-muted{
+    font-size: 12px;
+    text-align: justify;
+    text-justify: auto;
+}
+.card-text p{
+     text-align: justify;
+     color:black;
+     text-justify: inter-word;
+}
+
+.card-index{
+    width: 23rem;
+    padding: 0;
+
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,.75);
+}
+.col-auto-lg{
+    margin:20px auto;
+}
+.col-12-lg{
+    width: 80%;
+    margin: 10px auto;
+}
+.form-card{
+    background:url("https://www.playstationlifestyle.net/assets/uploads/2020/03/the-witcher-1280x720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   opacity: .2 inherit;
+    
+    text-align: left;
+}
